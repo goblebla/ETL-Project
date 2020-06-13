@@ -26,3 +26,5 @@ Transform: This step was performed in Jupyter notebook and then converted to a P
 
 Load:
 	Using pandas, we created SQLpostgres database using pandas.DataFrame.to_sql. We ran a few query tests, we querried race totals to test our database. Data was successfully queried. 
+	
+Instructions: Run the jupyter notebook named Police-Shooting-Analysis.ipynb, which can be found in folder .
