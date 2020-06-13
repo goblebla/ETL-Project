@@ -25,7 +25,4 @@ Transform: This step was performed in Jupyter notebook and then converted to a P
 	- Finally we had a clean dataframe that had the right columns with the correct data types ready to be loaded into Postgress SQL database.
 
 Load:
-	- Created the Postgress table using the column names and types from the final dataframe
-
-
-Using pandas, created SQL pandas.DataFrame.to_sql
+	Using pandas, we created SQLpostgres database using pandas.DataFrame.to_sql. We ran a few query tests, we querried race totals to test our database. Data was successfully queried. 
