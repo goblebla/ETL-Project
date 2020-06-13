@@ -1,7 +1,3 @@
-create database PoliceShootingsData;
-
-use PoliceShootingsData;
-
 DROP TABLE IF EXISTS Shootings;
 CREATE TABLE Shootings (
     ID int NOT NULL,
