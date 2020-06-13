@@ -2,6 +2,8 @@
 
 Police Shootings ETL Project
 
+Instructions: Run the jupyter notebook named Police-Shooting-Analysis.ipynb, which can be found in DF_Cleanup folder.
+
 This project's objective was to Extract, Transform, and Load 2 different data sources related to US Police Shootings. Since there's not one source for this type of data,  this process explores the idea of combining different datasets in an uniform way to load to a database where persistent data about this shootings can live. This exemplifies using 2 sources of data, but it could be extended to include more.
 
 
@@ -27,4 +29,4 @@ Transform: This step was performed in Jupyter notebook and then converted to a P
 Load:
 	Using pandas, we created SQLpostgres database using pandas.DataFrame.to_sql. We ran a few query tests, we querried race totals to test our database. Data was successfully queried. 
 	
-Instructions: Run the jupyter notebook named Police-Shooting-Analysis.ipynb, which can be found in folder .
+
