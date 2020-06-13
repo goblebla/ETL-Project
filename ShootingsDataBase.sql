@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS Shooting
+DROP TABLE IF EXISTS Shootings;
 CREATE TABLE Shootings (
-    "Name" varchar(100)   NOT NULL,
+    Name varchar(100)   NOT NULL,
     "Date" Date   NOT NULL,
     "Death_Cause" varchar(100)   NOT NULL,
     "Armed" varchar(100)   NOT NULL,
@@ -18,9 +18,4 @@ CREATE TABLE Shootings (
     "Agency" varchar(100)   NOT NULL,
     "Description" varchar(100)   NOT NULL,
 	"Disposition_of_death" varchar(100)   NOT NULL,
-    "Criminal_charges" varchar(100)   NOT NULL,
-    "Alleged_weapon" varchar(100)   NOT NULL,
-    CONSTRAINT "Shootings" PRIMARY KEY (
-        "ID"
-     )
-);
+    "Criminal_charges" varchar(100)   NOT NULl);
