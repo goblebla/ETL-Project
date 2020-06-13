@@ -7,7 +7,9 @@ This project's objective was to Extract, Transform, and Load 2 different data so
 
 Extract: Data was obtained Kaggle.com 
 	- We extracted two .csv files from Kaggle.com related to Police Shootings in the US: 
+	
 		1. Police_killings_new.csv
+		
 		2. Datasets_2647_4395_PoliceKillingsUS.csv
 	- Given the fact that Kaggle.com does not provide a clean link to their .csv files, our attempt to use pandas to read from url was not successful (df=pd.read_csv(url))
 	For example, this is the typical Kaggle way to display their .csv files: https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=police_killings.csv . 
